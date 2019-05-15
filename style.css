@@ -35,3 +35,9 @@ body {
 .res {
   
 }
+.footer {
+  padding: 3em;
+  margin: 3em auto 0px auto;
+  border-top: 1px solid #ddd;
+  width: 900px;
+}
