@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+}
+.title {
+  font-size: 3em;
+  padding: 1em;
+}
+.but {
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #333;
+}
+.res {
+  
+}
