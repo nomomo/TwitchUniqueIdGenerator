@@ -10,7 +10,7 @@ function main(){
     var temp_16 = parseInt(temp_slice, 16);
     var temp_check = temp_16 / Math.pow(16,4);
     if(temp_check < limit){
-    	$(".res").html("unique_id: <strong>"+temp_id+"</strong><br />hash: "+temp_hash+"<br />calcurated_value: "+temp_check+"<br /><br />적용 방법: 1. Twitch의 원하는 재생 페이지로 간 후 F12 키를 눌러서 브라우저 개발자 도구를 엽니다.<br />2. 저장소 또는 Application 탭을 엽니다.<br />3. 쿠키(Cookies) - twitch.tv 또는 player.twitch.tv 를 찾습니다.<br />4. unique_id 라는 이름의 쿠키를 찾아 값(value)를 더블클릭한 후, 내용을 위의 unique_id 값으로 변경합니다.<br />5. 새로고침 합니다.<br /><br /><img src='example.png' />");
+    	$(".res").html("unique_id: <strong>"+temp_id+"</strong><br />hash: "+temp_hash+"<br />calculated_value: "+temp_check+"<br /><br />적용 방법: 1. Twitch의 원하는 재생 페이지로 간 후 F12 키를 눌러서 브라우저 개발자 도구를 엽니다.<br />2. 저장소 또는 Application 탭을 엽니다.<br />3. 쿠키(Cookies) - twitch.tv 또는 player.twitch.tv 를 찾습니다.<br />4. unique_id 라는 이름의 쿠키를 찾아 값(value)를 더블클릭한 후, 내용을 위의 unique_id 값으로 변경합니다.<br />5. 새로고침 합니다.<br /><br /><img src='example.png' />");
       return true;
     }
     else{
